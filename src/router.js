@@ -130,7 +130,7 @@ export const constantRouterMap = [
     ]
   },
 
-  {
+  /*{
     path: 'external-link',
     component: Layout,
     children: [
@@ -139,7 +139,7 @@ export const constantRouterMap = [
         meta: { title: 'External Link', icon: 'link' }
       }
     ]
-  },
+  },*/
 
   { path: '*', redirect: '/404', hidden: true }
 ]
